@@ -1,12 +1,9 @@
 #!/usr/bin/python
 
-import base64
 import requests
 
+import dev_config as config
 # Constants
-KEY = "Byygq1zI2KKyssKp8UvVe3DV/v6Aa0FEsKrE+pqDa0s"
-ID = "0c3454d3-67ce-4558-b4ac-1e95f964cdf5"
-ENCODED = base64.b64encode("{0}:{1}".format(KEY, KEY))
 
 class BingBing():
     def __init__(self, query, precision):
@@ -21,7 +18,7 @@ class BingBing():
 
     def getResults(self):
         url = self.getURI()
-        headers = {'Authorization': 'Basic ' + ENCODED}
+        headers = {'Authorization': 'Basic ' + config.ENCODED_KEY}
         r = requests.get(url, headers=headers)
         data = r.json()
         return data.get('d').get('results')
@@ -29,10 +26,10 @@ class BingBing():
     def printResults(self):
         print "-"*50
         for i, r in enumerate(self.results):
-            print i, r["Title"], "(" + r["Url"] + ")"
-            print " ", r["Description"]
-            print "-"*50
-
+            # print i, r["Title"], "(" + r["Url"] + ")"
+            # print " ", r["Description"].encode('ascii','ignore')
+            # print "-"*50
+            print config.print_str.format(i, r['Title'], r['Url'], r["Description"].encode('ascii','ignore'))
     def start(self):
         self.results = self.getResults()
         self.printResults()
@@ -40,6 +37,7 @@ class BingBing():
         relevant_indices = raw_input()
         self.evaluate(relevant_indices)
 
+    @staticmethod
     def evaluate(self, response):
         self.selectedIDs = map(lambda x: int(x.strip()), \
                                response.split(','))
