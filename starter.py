@@ -57,7 +57,6 @@ class BingBing():
 
     def evaluate(self, response):
         """
-        
         :param self:
         :param response:
         :return:
@@ -75,7 +74,6 @@ class BingBing():
 
         """
         print "Continue"
-
 
 if __name__ == "__main__":
     b = BingBing(query="gates", precision=0.5)
