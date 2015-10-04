@@ -1,4 +1,3 @@
-#!/usr/bin/python
 import requests
 import dev_config as config
 import utils
@@ -48,5 +47,4 @@ class BingBing():
 
 if __name__ == "__main__":
     b = BingBing(query="gates", precision=0.5)
-    #b.start()
-    b.update_query()
+    b.start()
