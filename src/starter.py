@@ -1,6 +1,6 @@
 import requests
 import dev_config as config
-import utils
+from utils import Corpora
 
 class BingBing():
     def __init__(self, query, precision):
@@ -27,7 +27,8 @@ class BingBing():
     def print_results(self):
         print "-" * 50
         for i, r in enumerate(self.results):
-            print config.print_str.format(i, r['Title'], r['Url'], r["Description"].encode('ascii', 'ignore'))
+            print config.print_str.format(i, r['Title'], r['Url'],
+                                          r["Description"].encode('ascii', 'ignore'))
 
     def start(self):
         self.results = self.get_results()
@@ -43,7 +44,9 @@ class BingBing():
         self.update_query()
 
     def update_query(self):
-        pass
+        docs = [r["Description"] for r in self.results]
+        corpora = Corpora(docs)
+        docVectors = corpora.getVectorizedCorpora()
 
 if __name__ == "__main__":
     b = BingBing(query="gates", precision=0.5)
