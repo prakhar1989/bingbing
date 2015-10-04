@@ -44,9 +44,9 @@ class BingBing():
         self.update_query()
 
     def update_query(self):
-        docs = [r["Description"] for r in self.results]
-        corpora = Corpora(docs)
-        docVectors = corpora.getVectorizedCorpora()
+        results = [r["Description"] for r in self.results]
+        corpora = Corpora(self.query, results, self.selectedIDs)
+        corpora.getUpdatedQuery()
 
 if __name__ == "__main__":
     b = BingBing(query="gates", precision=0.5)
