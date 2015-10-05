@@ -49,5 +49,6 @@ class BingBing():
         corpora.getUpdatedQuery()
 
 if __name__ == "__main__":
-    b = BingBing(query="gates", precision=0.5)
+    query = raw_input("Enter Query: ")
+    b = BingBing(query=query.strip(), precision=0.5)
     b.start()

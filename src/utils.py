@@ -69,7 +69,11 @@ class Corpora:
                 irrelevantDocSum += vector
 
         # apply the formula
-        f = (BETA / relevantCount * relevantDocSum) - \
+        vector = (ALPHA * queryVector) + (BETA / relevantCount * relevantDocSum) - \
             (GAMMA / irrelevantCount * irrelevantDocSum)
 
-        print queryVector
+        topIndices = vector.argsort()[-5:]
+        wordList = sorted(self.bagOfWords)
+
+        for i in topIndices:
+            print wordList[i],
