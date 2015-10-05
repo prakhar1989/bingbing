@@ -74,6 +74,4 @@ class Corpora:
 
         topIndices = vector.argsort()[-5:]
         wordList = sorted(self.bagOfWords)
-
-        for i in topIndices:
-            print wordList[i],
+        return [(wordList[i], vector[i]) for i in topIndices]

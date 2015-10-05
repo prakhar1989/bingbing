@@ -4,10 +4,6 @@ from utils import Corpora
 
 class BingBing():
     def __init__(self, query, precision):
-        """
-        :param query: the query string
-        :param precision: the requisite accuracy.
-        """
         self.query = query
         self.precision = precision
         self.selectedIDs = []
@@ -25,31 +21,48 @@ class BingBing():
         return data.get('d').get('results')
 
     def print_results(self):
-        print "-" * 50
         for i, r in enumerate(self.results):
-            print config.print_str.format(i, r['Title'].encode("ascii", "ignore"),
+            print config.print_str.format(i+1, r['Title'].encode("ascii", "ignore"),
                                              r['Url'],
                                              r["Description"].encode("ascii", "ignore"))
+            relevant = raw_input("Is this result relevant? (y/n): ")
+            if relevant.strip().lower() == "y":
+                self.selectedIDs.append(i)
 
     def start(self):
         self.results = self.get_results()
         self.print_results()
-        print "Enter which all results are relevant (comma separated):",
-        relevant_indices = raw_input()
-        self.evaluate(relevant_indices)
+        self.evaluate()
 
-    def evaluate(self, response):
-        self.selectedIDs = map(lambda x: int(x.strip()),
-                               response.split(','))
-        if len(self.selectedIDs) / 10.0 >= self.precision: return
-        self.update_query()
+    def evaluate(self):
+        precision = len(self.selectedIDs) / 10.0
+        print "Target precision: ", self.precision
+        print "Achieved precision: ", precision
+
+        if precision >= self.precision:
+            print "Precision achieved. Stopping"
+            return
+        elif precision == 0:
+            print "No documents relevant. Stopping"
+            return
+        else:
+            print "Going for next iteration..."
+            self.update_query()
 
     def update_query(self):
         results = [r["Description"] for r in self.results]
         corpora = Corpora(self.query, results, self.selectedIDs)
-        corpora.getUpdatedQuery()
+        print "Augmenting query..."
+        newQueryWords = [word for word, score in corpora.getUpdatedQuery()]
+        self.query = " ".join([self.query, newQueryWords[0]])
+        print "Restarting search with query: ", self.query
+        self.start()
 
 if __name__ == "__main__":
-    query = raw_input("Enter Query: ")
-    b = BingBing(query=query.strip(), precision=0.5)
-    b.start()
+    q = raw_input("Enter Query: ")
+    p = float(raw_input("Enter target precision: ").strip())
+    if p < 0 or p > 1:
+        print "Error: precision should be between 0 and 1"
+    else:
+        b = BingBing(query=q.strip(), precision=p)
+        b.start()
