@@ -3,6 +3,9 @@ import dev_config as config
 import sys
 from utils import Corpora
 
+# Hack for turning off SSLWarning on CLIC machines :|
+requests.packages.urllib3.disable_warnings()
+
 class BingBing():
     def __init__(self, query, precision):
         self.query = query
@@ -26,13 +29,13 @@ class BingBing():
             print config.print_str.format(i+1, r['Title'].encode("ascii", "ignore"),
                                              r['Url'],
                                              r["Description"].encode("ascii", "ignore"))
-            try:
+            try: # graceful exits on <C-d> / <C-c>
                 relevant = raw_input("Is this result relevant? (y/n): ").strip().lower()
                 while relevant not in "yn":
                     relevant = raw_input("Please enter only y (for yes) or n (for no): ").strip().lower()
                 if relevant == "y":
                     self.selectedIDs.append(i)
-            except EOFError:
+            except (EOFError, KeyboardInterrupt) as e:
                 print "\nExiting..."
                 sys.exit()
 
@@ -67,10 +70,14 @@ class BingBing():
         self.start()
 
 if __name__ == "__main__":
-    q = raw_input("Enter Query: ")
-    p = float(raw_input("Enter target precision: ").strip())
-    if p < 0 or p > 1:
-        print "Error: precision should be between 0 and 1"
+    try: # graceful exits on <C-d> / <C-c>
+        q = raw_input("Enter Query: ")
+        p = float(raw_input("Enter target precision: ").strip())
+        if p < 0 or p > 1:
+            print "Error: precision should be between 0 and 1"
+            sys.exit()
+        b = BingBing(query=q.strip(), precision=p)
+        b.start()
+    except (EOFError, KeyboardInterrupt) as e:
+        print "\nExiting..."
         sys.exit()
-    b = BingBing(query=q.strip(), precision=p)
-    b.start()
