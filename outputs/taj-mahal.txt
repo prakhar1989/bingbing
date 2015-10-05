@@ -1,0 +1,135 @@
+Script started on Mon Oct  5 00:35:07 2015
+[1m[7m%[27m[1m[0m                                                                              ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=../run.sh[1m [0m[0m [?1l>
+]2;./run.sh]1;./run.shEnter Query: taj mahal
+Enter target precision: 0.7
+
+-----------------------------------------
+1) Taj Mahal - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Taj_Mahal)
+The Taj Mahal is a white marble mausoleum located on the southern bank of the Yamuna River in the Indian city of Agra. It was commissioned in 1632 by the Mughal ...
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+2) The Taj Mahal - Facts & Summary - HISTORY.com (http://www.history.com/topics/taj-mahal)
+Find out more about the history of The Taj Mahal, including videos, interesting articles, pictures, historical features and more. Get all the facts on HISTORY.com
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+3) Atlantic City New Jersey Casino Hotels | Trump Taj Mahal ... (http://www.trumptaj.com/)
+For five star Atlantic City Casino hotels, Trump Taj Mahal Casino Hotel offers restaurants, nightlife and a casino floor you can't resist. Explore our Atlantic City ...
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+4) Amazon.com: Taj Mahal (http://www.amazon.com/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3ATaj%20Mahal)
+Available for Pre-order. This item will be released on October 16, 2015.
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+5) Taj Mahal (musician) - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Henry_Fredericks)
+Henry Saint Clair Fredericks (born May 17, 1942), who uses the stage name Taj Mahal, is an American blues musician. He often incorporates elements of world music into ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+6) Taj Mahal, Dubrovnik - Restaurant Reviews, Phone Number ... (http://www.tripadvisor.com/Restaurant_Review-g295371-d807032-Reviews-Taj_Mahal-Dubrovnik_Dubrovnik_Neretva_County_Dalmatia.html)
+Taj Mahal, Dubrovnik: See 1,820 unbiased reviews of Taj Mahal, rated 4.5 of 5 on TripAdvisor and ranked #22 of 323 restaurants in Dubrovnik.
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+7) Taj Mahal (https://www.facebook.com/tajmahal)
+Taj Mahal is excited to present to the public for the first time prints from original etching Natch'l Blues! The Natchl Blues prints are hand rolled ...
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+8) Taj Mahal, Posters and Prints at Art.com (http://www.art.com/gallery/id--b191276/taj-mahal-posters.htm)
+Taj Mahal, Posters and Prints - Discover the perfect print, canvas or photo for your space with Art.com
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+9) Taj Mahal - University Village - Chicago, IL - Yelp (http://www.yelp.com/biz/taj-mahal-chicago-2)
+Read 177 reviews, see 40 photos for Taj Mahal in Chicago. "Let me start off by saying that this place has an unnecessarily bad wrap on yelp. I had been wanting to ...
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+10) Nars Taj Mahal - Amazon.com (http://www.amazon.com/NARS-0467504846788-Blush-Taj-Mahal/dp/B00021DJ32)
+Indications NARS - Cheek - Blush -Blush - Taj Mahal 4.8g/0.16oz NARS Ingredients Talc, Polyethylene, Zinc Stearate, Silica, Tricaprylin, Capric/Caprylic Stearic ...
+-----------------------------------------
+Is this result relevant? (y/n): n
+Target precision:  0.7
+Achieved precision:  0.1
+Going for next iteration...
+Augmenting query...
+Restarting search with query:  taj mahal musician
+
+-----------------------------------------
+1) Taj Mahal (musician) - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Taj_Mahal_(musician))
+Henry Saint Clair Fredericks (born May 17, 1942), who uses the stage name Taj Mahal, is an American blues musician. He often incorporates elements of world music into ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+2) An International Treasure - Taj Mahal (http://www.tajblues.com/)
+TAJ MAHAL Accepts Lifetime Achievement Award from Americana Music Association. September 18, 2014. Taj Mahal accepted the Lifetime Achievement Award from the ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+3) Taj Mahal - Taj Mahal - Amazon.com Music (http://www.amazon.com/Taj-Mahal/dp/B00004XSUW)
+Amazon.com. Taj Mahal's been chasing the blues around the world for years, but rarely with the passion, energy, and clarity he brought to his first three albums.
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+4) Taj Mahal (https://www.facebook.com/tajmahal)
+Taj Mahal is excited to present to the public for the first time prints from original etching Natch'l Blues! The Natchl Blues prints are hand rolled ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+5) Taj Mahal's Songs | Stream Online Music Songs | Listen ... (https://myspace.com/tajblues/music/songs)
+Taj Mahal's songs: Listen to songs by Taj Mahal on Myspace, Stream Free Online Music by Taj Mahal
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+6) Taj Mahal | Listen and Stream Free Music, Albums, New ... (https://myspace.com/tajblues)
+Taj Mahal's profile including the latest music, albums, songs, music videos and more updates.
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+7) Taj Mahal music - Listen Free on Jango || Pictures, Videos ... (http://www.jango.com/music/Taj+Mahal)
+Unlimited free Taj Mahal music - Click to play Statesboro Blues, Johnny Too Bad and whatever else you want! Henry Saint Clair Fredericks (born May 17, 1942), who uses ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+8) Taj Mahal (The Musician) ? | Yahoo Answers (https://answers.yahoo.com/question/index?qid=20080915070119AActqrV)
+1) I love Taj Mahal. I once read that he considered himself a protector of musicians from producers who might take advantage of them. Plus, he makes ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+9) Taj Mahal - LyricWikia - song lyrics, music lyrics (http://lyrics.wikia.com/wiki/Taj_Mahal)
+Taj Mahal (1968) Leaving Trunk, Statesboro Blues, Checkin' Up On My Baby, Everybody's Got To...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+10) TAJ MAHAL - Taj Mahal [Vinyl] - Amazon.com Music (http://www.amazon.com/Taj-Mahal-Vinyl-TAJ-MAHAL/dp/B000B6TR9I)
+It's hard to believe that 40 years have elapsed since Taj Mahal recorded his self-titled album. I can honestly say that Taj's debut album DID change my life because ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+Target precision:  0.7
+Achieved precision:  1.0
+Precision achieved. Stopping
+[1m[7m%[27m[1m[0m                                                                              ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=
+
+Script done on Mon Oct  5 00:35:41 2015

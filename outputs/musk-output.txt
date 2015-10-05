@@ -1,0 +1,135 @@
+Script started on Mon Oct  5 00:34:07 2015
+[1m[7m%[27m[1m[0m                                                                              ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=../run.sh[1m [0m[0m [?1l>
+]2;./run.sh]1;./run.shEnter Query: musk
+Enter target precision: 0.9 8
+
+-----------------------------------------
+1) Musk - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Musk)
+Musk is a class of aromatic substances commonly used as base notes in perfumery. They include glandular secretions from animals such as the musk deer, numerous plants ...
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+2) Elon Musk - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Elon_Musk)
+Elon Reeve Musk (born June 28, 1971) is a South African-born Canadian-American business magnate, engineer, inventor and investor. [14] He is the CEO and CTO of SpaceX ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+3) Amazon.com: perfume musk: Beauty (http://www.amazon.com/s?ie=UTF8&page=1&rh=n%3A3760911%2Ck%3Aperfume%20musk)
+Online shopping from a great selection at Beauty Store. ... Avany 100% Pure Uncut Alcohol Free Roll on Body Oil Perfume and Colonge, Egyptian Musk 0.33oz
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+4) MUSK - muscle, skeletal, receptor tyrosine kinase ... (http://ghr.nlm.nih.gov/gene/MUSK)
+The official name of this gene is muscle, skeletal, receptor tyrosine kinase. MUSK is the gene's official symbol. The MUSK gene is also known by ...
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+5) MUSK (https://www.facebook.com/MUSKmeat)
+ANNOUNCING HOLY MOUNTAIN'S FIRST EVER SUMMER SALE Summer is winding down and we need to make room for the Dust and Chime records coming this Fall. 15% off EVERYTHING ...
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+6) MUSK Gene - GeneCards | MUSK Protein | MUSK Antibody (http://www.genecards.org/cgi-bin/carddisp.pl?gene=MUSK)
+Complete information for MUSK gene (Protein Coding), Muscle, Skeletal, Receptor Tyrosine Kinase, including: function, proteins, disorders, pathways, orthologs, and ...
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+7) Musk | Article about musk by The Free Dictionary (http://encyclopedia2.thefreedictionary.com/musk)
+musk, odorous substance secreted by an abdominal gland of the musk deer musk deer, small, antlerless deer, Moschus moschiferus, found in wet mountain forests from ...
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+8) musk perfume | eBay (http://www.ebay.com/sch/i.html?_nkw=musk+perfume)
+Find great deals on eBay for musk perfume musk perfume oil. Shop with confidence.
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+9) Musk (https://www.facebook.com/muskforlife)
+Musk continue their arduous touring schedule - 2 shows within a week! The road is our mistress - well that and Shazza from the Blacktown RSL bottle shop.
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+10) Egyptian Musk Perfume from Sears.com (http://www.sears.com/search=egyptian%20musk%20perfume)
+Balad Al Atoor ( Attar City ) Musk Al Hareer (Silky Musk)- 6ml OR 12ml - Alcohol Free Arabic Perfume Oil Fragrance for Men and Women (Unisex)
+-----------------------------------------
+Is this result relevant? (y/n): n
+Target precision:  0.8
+Achieved precision:  0.1
+Going for next iteration...
+Augmenting query...
+Restarting search with query:  musk elon
+
+-----------------------------------------
+1) Elon Musk - Wikipedia, the free encyclopedia (https://en.wikipedia.org/wiki/Elon_Musk)
+In March 1999, Musk co-founded X.com, an online financial services and e-mail payment company, with US$10 million from the sale of Zip2. [32] [39] [41] One year later ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+2) Elon Musk explains how he would bomb Mars - CNET (http://www.cnet.com/news/elon-musk-explains-how-he-would-bomb-mars/)
+Elon Musk explains how he would bomb Mars. Technically Incorrect: Tesla's CEO wants to create constant nuclear pulse explosions so that there'd be two ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+3) Elon Musk Knows His Life Makes The Average Mortal's Head Spin (http://www.huffingtonpost.com/entry/elon-musks-life-makes-the-average-mortals-head-spin_560ec41de4b0af3706e09709)
+Elon Musk Knows His Life Makes The Average Mortal's Head Spin "It certainly does end up being a lot. I wake up and I'm like, where am I?"
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+4) Elon Musk: The Model X is so advanced we probably shouldn ... (http://www.businessinsider.com/elon-musk-the-model-x-is-so-advanced-we-probably-shouldnt-have-built-it-2015-9)
+Tesla launched its long-awaited Model X SUV this week to great fanfare in the San Francisco Bay Area. The launch was a big success, well attended by Tesla ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+5) Elon Musk won't nuke Mars, he'll just give it 2 temporary suns (http://mashable.com/2015/10/02/elon-musk-nuke-mars-two-suns/)
+Good news, Elon Musk does not want to bomb Mars. He just wants to create two suns above the red planet.
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+6) Elon Musk Debuts the Tesla Powerwall - YouTube (http://www.youtube.com/watch?v=yKORsrlN-2k)
+Tesla Powerwall Keynote by Elon Musk "The Missing Piece" English and Spanish subtitles added, credit to Luis Gmez for transcribing and translating.
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+7) How Elon Musks Super-Efficient Rooftop Panels Will Help ... (http://motherboard.vice.com/read/how-elon-musks-super-efficient-rooftop-solar-panels-may-help-save-the-industry)
+SolarCity, the Elon Musk-chaired clean energy company, says its about to start mass-manufacturing the worlds most efficient rooftop solar panel.
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+8) Elon. Evolution - CNNMoney (http://money.cnn.com/technology/elonmusk/)
+Elon Musk is the man of the future. He makes rocket ships that will carry humans into space and makes cars that dont require gasoline. But he cant solve all of ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+9) Elon Musk Clarifies His Plan to "Nuke Mars" - Gizmodo (http://gizmodo.com/elon-musk-clarifies-his-plan-to-nuke-mars-1734457751)
+Remember a few weeks back, when Elon Musk explained how we ought to nuke Mars to warm it up? Well, the billionaire was really just speaking off the cuff, and so ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+10) Elon Musk Says Tesla Cars Will Reach 620 Miles On A Single ... (http://techcrunch.com/2015/09/29/elon-musk-says-tesla-cars-will-reach-620-miles-on-a-single-charge-within-a-year-or-two-have-fully-autonomous-cars-in-three-years/)
+Tesla CEO Elon Musk sat down with a Danish TV show last week and had some interesting predictions to share. Asked, for example, when he thought the company ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+Target precision:  0.8
+Achieved precision:  1.0
+Precision achieved. Stopping
+[1m[7m%[27m[1m[0m                                                                              ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=
+
+Script done on Mon Oct  5 00:34:33 2015
