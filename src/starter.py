@@ -1,5 +1,6 @@
 import requests
 import dev_config as config
+import sys
 from utils import Corpora
 
 class BingBing():
@@ -25,12 +26,19 @@ class BingBing():
             print config.print_str.format(i+1, r['Title'].encode("ascii", "ignore"),
                                              r['Url'],
                                              r["Description"].encode("ascii", "ignore"))
-            relevant = raw_input("Is this result relevant? (y/n): ")
-            if relevant.strip().lower() == "y":
-                self.selectedIDs.append(i)
+            try:
+                relevant = raw_input("Is this result relevant? (y/n): ").strip().lower()
+                while relevant not in "yn":
+                    relevant = raw_input("Please enter only y (for yes) or n (for no): ").strip().lower()
+                if relevant == "y":
+                    self.selectedIDs.append(i)
+            except EOFError:
+                print "\nExiting..."
+                sys.exit()
 
     def start(self):
         self.results = self.get_results()
+        self.selectedIDs = []
         self.print_results()
         self.evaluate()
 
@@ -63,6 +71,6 @@ if __name__ == "__main__":
     p = float(raw_input("Enter target precision: ").strip())
     if p < 0 or p > 1:
         print "Error: precision should be between 0 and 1"
-    else:
-        b = BingBing(query=q.strip(), precision=p)
-        b.start()
+        sys.exit()
+    b = BingBing(query=q.strip(), precision=p)
+    b.start()
