@@ -73,11 +73,11 @@ if __name__ == "__main__":
     try: # graceful exits on <C-d> / <C-c>
         q = raw_input("Enter Query: ")
         p = float(raw_input("Enter target precision: ").strip())
-        if p < 0 or p > 1:
-            print "Error: precision should be between 0 and 1. Please try again."
-            sys.exit()
-        b = BingBing(query=q.strip(), precision=p)
-        b.start()
     except (EOFError, KeyboardInterrupt) as e:
         print "\nExiting..."
         sys.exit()
+    if p < 0 or p > 1:
+        print "Error: precision should be between 0 and 1. Please try again."
+        sys.exit()
+    b = BingBing(query=q.strip(), precision=p)
+    b.start()
