@@ -27,8 +27,9 @@ class BingBing():
     def print_results(self):
         print "-" * 50
         for i, r in enumerate(self.results):
-            print config.print_str.format(i, r['Title'], r['Url'],
-                                          r["Description"].encode('ascii', 'ignore'))
+            print config.print_str.format(i, r['Title'].encode("ascii", "ignore"),
+                                             r['Url'],
+                                             r["Description"].encode("ascii", "ignore"))
 
     def start(self):
         self.results = self.get_results()
