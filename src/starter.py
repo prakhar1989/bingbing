@@ -50,11 +50,11 @@ class BingBing():
             self.update_query()
 
     def update_query(self):
-        results = [r["Description"] for r in self.results]
+        results = [r["Description"] + r['Title'] for r in self.results]
         corpora = Corpora(self.query, results, self.selectedIDs)
         print "Augmenting query..."
-        newQueryWords = [word for word, score in corpora.getUpdatedQuery()]
-        self.query = " ".join([self.query, newQueryWords[0]])
+        newQueryWords = [word for word, score in corpora.getUpdatedQuery() if score > 2]
+        self.query = " ".join([self.query] +  newQueryWords)
         print "Restarting search with query: ", self.query
         self.start()
 
