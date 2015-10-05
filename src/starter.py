@@ -1,7 +1,7 @@
 import requests
 import dev_config as config
 import sys
-from utils import Corpora
+from corpora import Corpora
 
 # Hack for turning off SSLWarning on CLIC machines :|
 requests.packages.urllib3.disable_warnings()
