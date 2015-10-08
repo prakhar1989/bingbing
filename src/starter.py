@@ -66,9 +66,8 @@ class BingBing():
         corpora = Corpora(self.query, results, self.selectedIDs)
         print "Augmenting query..."
         updatedQuery = corpora.getUpdatedQuery()
-        print updatedQuery
-        newQueryWords = [word for word, score in updatedQuery if score > 2]
-        return
+        (w1, s1), (w2, s2) = updatedQuery[0], updatedQuery[1]
+        newQueryWords = [w1, w2] if s1 == s2 else [w1]
         self.query = " ".join([self.query] +  newQueryWords)
         print "Restarting search with query: ", self.query
         self.start()

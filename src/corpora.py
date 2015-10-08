@@ -74,6 +74,7 @@ class Corpora:
         vector = (ALPHA * queryVector) + (BETA / relevantCount * relevantDocSum) - \
             (GAMMA / irrelevantCount * irrelevantDocSum)
 
+        # take the top 5 words
         topIndices = vector.argsort()[-5:][::-1]
         wordList = sorted(self.bagOfWords)
         return [(wordList[i], vector[i]) for i in topIndices]
