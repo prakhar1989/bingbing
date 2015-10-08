@@ -65,9 +65,14 @@ class BingBing():
         results = [r["Description"] + r['Title'] for r in self.results]
         corpora = Corpora(self.query, results, self.selectedIDs)
         print "Augmenting query..."
-        updatedQuery = corpora.getUpdatedQuery()
-        (w1, s1), (w2, s2) = updatedQuery[0], updatedQuery[1]
+
+        # filter - choose words that are not in the query already
+        candidates = [(w, s) for w, s in corpora.getUpdatedQuery() \
+                      if w not in set(self.query.split())]
+        (w1, s1), (w2, s2) = candidates[0], candidates[1]
         newQueryWords = [w1, w2] if s1 == s2 else [w1]
+
+        # build new query
         self.query = " ".join([self.query] +  newQueryWords)
         print "Restarting search with query: ", self.query
         self.start()

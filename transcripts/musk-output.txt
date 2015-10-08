@@ -1,135 +1,136 @@
-Script started on Mon Oct  5 00:34:07 2015
-[1m[7m%[27m[1m[0m                                                                              ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=../run.sh[1m [0m[0m [?1l>
+Script started on Thu Oct  8 15:14:48 2015
+[1m[7m%[27m[1m[0m                                                                                                        ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[H[2J[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K../run.sh[1m [0m[0m [?1l>
 ]2;./run.sh]1;./run.shEnter Query: musk
-Enter target precision: 0.9 8
+Enter target precision: 0.8
+Enter BING account key (leave blank to use author's key): 
 
 -----------------------------------------
-1) Musk - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Musk)
+1) Elon Musk is not a fan of Donald Trump - Mashable (http://mashable.com/2015/10/06/elon-musk-vanity-fair/)
+Elon Musk covered his thoughts on human longevity, life on Mars and why he sometimes deletes tweets at Vanity Fair's New Establishment Summit.
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+2) Elon Musk: Dieselgate Proves It's Time to Go Electric (http://gizmodo.com/elon-musk-dieselgate-proves-its-time-to-go-electric-1733163688)
+Of course, that new technology Musk is referring to here is electric cars. But despite his obvious bias on the matter, the man may be onto something.
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+3) Elon Musk: Climate Change Will Bring Worse Refugee Crisis (http://time.com/4050048/elon-musk-climate-change/)
+Climate change could create a refugee crisis far worse than the one currently unfolding in Europe, Elon Musk warned Thursday. The Tesla CEO gave a speech in Berlin in ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+4) Musk - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Musk)
 Musk is a class of aromatic substances commonly used as base notes in perfumery. They include glandular secretions from animals such as the musk deer, numerous plants ...
 -----------------------------------------
 Is this result relevant? (y/n): n
 
 -----------------------------------------
-2) Elon Musk - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Elon_Musk)
+5) Elon Musk - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Elon_Musk)
 Elon Reeve Musk (born June 28, 1971) is a South African-born Canadian-American business magnate, engineer, inventor and investor. [14] He is the CEO and CTO of SpaceX ...
 -----------------------------------------
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-3) Amazon.com: perfume musk: Beauty (http://www.amazon.com/s?ie=UTF8&page=1&rh=n%3A3760911%2Ck%3Aperfume%20musk)
-Online shopping from a great selection at Beauty Store. ... Avany 100% Pure Uncut Alcohol Free Roll on Body Oil Perfume and Colonge, Egyptian Musk 0.33oz
+6) MUSK (https://www.facebook.com/MUSK.DISCO)
+MUSK are Lennart Dring and Gerald Zollner, who met in Berlin's nightlife back in 2009. Soon after they went through the history of dancemusic, ...
 -----------------------------------------
 Is this result relevant? (y/n): n
 
 -----------------------------------------
-4) MUSK - muscle, skeletal, receptor tyrosine kinase ... (http://ghr.nlm.nih.gov/gene/MUSK)
-The official name of this gene is muscle, skeletal, receptor tyrosine kinase. MUSK is the gene's official symbol. The MUSK gene is also known by ...
+7) Elon Musk (@elonmusk) | Twitter (https://twitter.com/ElonMusk)
+Elon Musk-backed SolarCity claims to have built industry's most efficient solar panel http://www. theverge.com/2015/10/2/9439 173/elon-musk-backed-solarcity-claims-to ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+8) Musk | Define Musk at Dictionary.com (http://dictionary.reference.com/browse/musk)
+noun 1. a substance secreted in a glandular sac under the skin of the abdomen of the male musk deer, having a strong odor, and used in perfumery. 2. an artificial ...
 -----------------------------------------
 Is this result relevant? (y/n): n
 
 -----------------------------------------
-5) MUSK (https://www.facebook.com/MUSKmeat)
-ANNOUNCING HOLY MOUNTAIN'S FIRST EVER SUMMER SALE Summer is winding down and we need to make room for the Dust and Chime records coming this Fall. 15% off EVERYTHING ...
+9) Musk | Definition of musk by Merriam-Webster (http://www.merriam-webster.com/dictionary/musk)
+Definition of MUSK for Kids: a strong-smelling material that is used in perfumes and is obtained from a gland of an Asian deer (musk deer) or is prepared artificially
 -----------------------------------------
 Is this result relevant? (y/n): n
 
 -----------------------------------------
-6) MUSK Gene - GeneCards | MUSK Protein | MUSK Antibody (http://www.genecards.org/cgi-bin/carddisp.pl?gene=MUSK)
-Complete information for MUSK gene (Protein Coding), Muscle, Skeletal, Receptor Tyrosine Kinase, including: function, proteins, disorders, pathways, orthologs, and ...
------------------------------------------
-Is this result relevant? (y/n): n
-
------------------------------------------
-7) Musk | Article about musk by The Free Dictionary (http://encyclopedia2.thefreedictionary.com/musk)
-musk, odorous substance secreted by an abdominal gland of the musk deer musk deer, small, antlerless deer, Moschus moschiferus, found in wet mountain forests from ...
------------------------------------------
-Is this result relevant? (y/n): n
-
------------------------------------------
-8) musk perfume | eBay (http://www.ebay.com/sch/i.html?_nkw=musk+perfume)
-Find great deals on eBay for musk perfume musk perfume oil. Shop with confidence.
------------------------------------------
-Is this result relevant? (y/n): n
-
------------------------------------------
-9) Musk (https://www.facebook.com/muskforlife)
-Musk continue their arduous touring schedule - 2 shows within a week! The road is our mistress - well that and Shazza from the Blacktown RSL bottle shop.
------------------------------------------
-Is this result relevant? (y/n): n
-
------------------------------------------
-10) Egyptian Musk Perfume from Sears.com (http://www.sears.com/search=egyptian%20musk%20perfume)
-Balad Al Atoor ( Attar City ) Musk Al Hareer (Silky Musk)- 6ml OR 12ml - Alcohol Free Arabic Perfume Oil Fragrance for Men and Women (Unisex)
+10) Musk perfume ingredient, Musk fragrance and essential oils ... (http://www.fragrantica.com/notes/Musk-4.html)
+Musk is a whole class of fragrant substances used as base notes in perfumery. This wonderful animalistic note creates a groundwork on which the rest of the aromatic ...
 -----------------------------------------
 Is this result relevant? (y/n): n
 Target precision:  0.8
-Achieved precision:  0.1
+Achieved precision:  0.5
 Going for next iteration...
 Augmenting query...
 Restarting search with query:  musk elon
 
 -----------------------------------------
-1) Elon Musk - Wikipedia, the free encyclopedia (https://en.wikipedia.org/wiki/Elon_Musk)
-In March 1999, Musk co-founded X.com, an online financial services and e-mail payment company, with US$10 million from the sale of Zip2. [32] [39] [41] One year later ...
+1) Elon Musk - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Elon_Musk)
+Elon Reeve Musk (born June 28, 1971) is a South African-born Canadian-American business magnate, engineer, inventor and investor. [14] He is the CEO and CTO of SpaceX ...
 -----------------------------------------
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-2) Elon Musk explains how he would bomb Mars - CNET (http://www.cnet.com/news/elon-musk-explains-how-he-would-bomb-mars/)
-Elon Musk explains how he would bomb Mars. Technically Incorrect: Tesla's CEO wants to create constant nuclear pulse explosions so that there'd be two ...
+2) Elon Musk - Forbes (http://www.forbes.com/profile/elon-musk/)
+Elon Musk's meteoric ride hit a speed bump in June when one of his SpaceX rockets, on its way to resupply the International Space Station, exploded two minutes into ...
 -----------------------------------------
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-3) Elon Musk Knows His Life Makes The Average Mortal's Head Spin (http://www.huffingtonpost.com/entry/elon-musks-life-makes-the-average-mortals-head-spin_560ec41de4b0af3706e09709)
-Elon Musk Knows His Life Makes The Average Mortal's Head Spin "It certainly does end up being a lot. I wake up and I'm like, where am I?"
+3) Elon Musk - CNBC (http://www.cnbc.com/elon-musk/)
+Tesla Motors CEO Elon Musk introduces the first of the company's long-awaited Model X electric sports-utility (SUV) vehicles.
 -----------------------------------------
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-4) Elon Musk: The Model X is so advanced we probably shouldn ... (http://www.businessinsider.com/elon-musk-the-model-x-is-so-advanced-we-probably-shouldnt-have-built-it-2015-9)
-Tesla launched its long-awaited Model X SUV this week to great fanfare in the San Francisco Bay Area. The launch was a big success, well attended by Tesla ...
+4) Elon Musk (@elonmusk) | Twitter (https://twitter.com/ElonMusk)
+Elon Musk-backed SolarCity claims to have built industry's most efficient solar panel http://www. theverge.com/2015/10/2/9439 173/elon-musk-backed-solarcity-claims-to ...
 -----------------------------------------
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-5) Elon Musk won't nuke Mars, he'll just give it 2 temporary suns (http://mashable.com/2015/10/02/elon-musk-nuke-mars-two-suns/)
-Good news, Elon Musk does not want to bomb Mars. He just wants to create two suns above the red planet.
+5) Is Elon Musk the Next Bugsy Siegel? - Bloomberg Business (http://www.bloomberg.com/news/articles/2015-10-07/is-elon-musk-the-next-bugsy-siegal-s-p-sees-nevada-tesla-boon)
+Elon Musks Tesla Motors Incs new battery plant in Nevada may do what mobster Bugsy Siegel did for the state back in the 1940s: Spark a new industry ...
 -----------------------------------------
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-6) Elon Musk Debuts the Tesla Powerwall - YouTube (http://www.youtube.com/watch?v=yKORsrlN-2k)
-Tesla Powerwall Keynote by Elon Musk "The Missing Piece" English and Spanish subtitles added, credit to Luis Gmez for transcribing and translating.
+6) Elon Musk - Engineer, Inventor, Explorer - Biography.com (http://www.biography.com/people/elon-musk-20837159#!)
+Elon Musk is an entrepreneur known for co-founding Tesla Motors, X.comwhich later became PayPaland SpaceX, the last of which launched a landmark commercial ...
 -----------------------------------------
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-7) How Elon Musks Super-Efficient Rooftop Panels Will Help ... (http://motherboard.vice.com/read/how-elon-musks-super-efficient-rooftop-solar-panels-may-help-save-the-industry)
-SolarCity, the Elon Musk-chaired clean energy company, says its about to start mass-manufacturing the worlds most efficient rooftop solar panel.
+7) Elon Musk | Speaker | TED.com (http://www.ted.com/speakers/elon_musk)
+Why you should listen. Elon Musk is the chief designer for SpaceX, overseeing development of rockets and spacecraft for missions to Earth orbit and ultimately to ...
 -----------------------------------------
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-8) Elon. Evolution - CNNMoney (http://money.cnn.com/technology/elonmusk/)
+8) Chanos got China right. Now he's betting against Elon Musk ... (http://money.cnn.com/2015/10/08/investing/jim-chanos-china-elon-musk/index.html)
+Jim Chanos, who correctly realized China's economy was in trouble, is betting against casinos, commodity companies and Elon Musk's SolarCity.
+-----------------------------------------
+Is this result relevant? (y/n): y n
+
+-----------------------------------------
+9) elon musk: Pictures, Videos, Breaking News (http://www.huffingtonpost.com/news/elon-musk/)
+Big News on elon musk. Includes blogs, news, and community conversations about elon musk.
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+10) Elon. Evolution - CNNMoney (http://money.cnn.com/technology/elonmusk/)
 Elon Musk is the man of the future. He makes rocket ships that will carry humans into space and makes cars that dont require gasoline. But he cant solve all of ...
 -----------------------------------------
 Is this result relevant? (y/n): y
-
------------------------------------------
-9) Elon Musk Clarifies His Plan to "Nuke Mars" - Gizmodo (http://gizmodo.com/elon-musk-clarifies-his-plan-to-nuke-mars-1734457751)
-Remember a few weeks back, when Elon Musk explained how we ought to nuke Mars to warm it up? Well, the billionaire was really just speaking off the cuff, and so ...
------------------------------------------
-Is this result relevant? (y/n): y
-
------------------------------------------
-10) Elon Musk Says Tesla Cars Will Reach 620 Miles On A Single ... (http://techcrunch.com/2015/09/29/elon-musk-says-tesla-cars-will-reach-620-miles-on-a-single-charge-within-a-year-or-two-have-fully-autonomous-cars-in-three-years/)
-Tesla CEO Elon Musk sat down with a Danish TV show last week and had some interesting predictions to share. Asked, for example, when he thought the company ...
------------------------------------------
-Is this result relevant? (y/n): y
 Target precision:  0.8
-Achieved precision:  1.0
+Achieved precision:  0.9
 Precision achieved. Stopping
-[1m[7m%[27m[1m[0m                                                                              ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=
+[1m[7m%[27m[1m[0m                                                                                                        ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=
 
-Script done on Mon Oct  5 00:34:33 2015
+Script done on Thu Oct  8 15:15:42 2015

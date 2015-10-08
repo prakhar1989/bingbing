@@ -1,7 +1,8 @@
-Script started on Mon Oct  5 00:35:07 2015
-[1m[7m%[27m[1m[0m                                                                              ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=../run.sh[1m [0m[0m [?1l>
+Script started on Thu Oct  8 15:17:18 2015
+[1m[7m%[27m[1m[0m                                                                                                        ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[H[2J[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K../run.sh[1m [0m[0m [?1l>
 ]2;./run.sh]1;./run.shEnter Query: taj mahal
-Enter target precision: 0.7
+Enter target precision: 0.8
+Enter BING account key (leave blank to use author's key): 
 
 -----------------------------------------
 1) Taj Mahal - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Taj_Mahal)
@@ -22,51 +23,51 @@ For five star Atlantic City Casino hotels, Trump Taj Mahal Casino Hotel offers r
 Is this result relevant? (y/n): n
 
 -----------------------------------------
-4) Amazon.com: Taj Mahal (http://www.amazon.com/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3ATaj%20Mahal)
-Available for Pre-order. This item will be released on October 16, 2015.
+4) Welcome To Official WebSite of Taj Mahal-U.P.Tourism (http://tajmahal.gov.in/)
+Official website by Department of Tourism, Government of Uttar Pradesh. Details about Taj Mahal, ticketing, tours, and tourist information.
 -----------------------------------------
 Is this result relevant? (y/n): n
 
 -----------------------------------------
-5) Taj Mahal (musician) - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Henry_Fredericks)
-Henry Saint Clair Fredericks (born May 17, 1942), who uses the stage name Taj Mahal, is an American blues musician. He often incorporates elements of world music into ...
+5) Taj Mahal India (http://www.tajmahal.com/)
+Taj Mahal, Taj Mahal history, taj mahal location, pictures, information, taj mahal tours, tickets and packages. Taj Mahal India
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+6) An International Treasure - Taj Mahal (http://www.tajblues.com/)
+Official site includes news, tour schedule, discography, audio/video and pictures.
+-----------------------------------------
+Is this result relevant? (y/n): n y
+
+-----------------------------------------
+7) Taj Mahal | Biography, Albums, & Streaming Radio | AllMusic (http://www.allmusic.com/artist/taj-mahal-mn0000790604)
+Find Taj Mahal bio, music, credits, awards, & streaming radio on AllMusic - A guitarist and singer/songwriter who took an
 -----------------------------------------
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-6) Taj Mahal, Dubrovnik - Restaurant Reviews, Phone Number ... (http://www.tripadvisor.com/Restaurant_Review-g295371-d807032-Reviews-Taj_Mahal-Dubrovnik_Dubrovnik_Neretva_County_Dalmatia.html)
-Taj Mahal, Dubrovnik: See 1,820 unbiased reviews of Taj Mahal, rated 4.5 of 5 on TripAdvisor and ranked #22 of 323 restaurants in Dubrovnik.
+8) Taj Mahal  Free listening, videos, concerts, stats and ... (http://www.last.fm/music/Taj+Mahal)
+Taj Mahal (born Henry Saint Clair Fredericks in New York City on May 17, 1942) is an American Grammy Award-winning blues musician who incorporates elements of world ...
 -----------------------------------------
-Is this result relevant? (y/n): n
+Is this result relevant? (y/n): y
 
 -----------------------------------------
-7) Taj Mahal (https://www.facebook.com/tajmahal)
-Taj Mahal is excited to present to the public for the first time prints from original etching Natch'l Blues! The Natchl Blues prints are hand rolled ...
+9) Amazon.com: Taj Mahal: Songs, Albums, Pictures, Bios (http://www.amazon.com/Taj-Mahal/e/B000APY7PY)
+Visit Amazon.com's Taj Mahal Store to shop for Taj Mahal albums (CD, MP3, Vinyl), concert tickets, and other Taj Mahal-related products (DVDs, Books, T-shirts). Also ...
 -----------------------------------------
-Is this result relevant? (y/n): n
+Is this result relevant? (y/n): y
 
 -----------------------------------------
-8) Taj Mahal, Posters and Prints at Art.com (http://www.art.com/gallery/id--b191276/taj-mahal-posters.htm)
-Taj Mahal, Posters and Prints - Discover the perfect print, canvas or photo for your space with Art.com
+10) Taj Mahal (musician) - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Taj_Mahal_(musician))
+Henry Saint Clair Fredericks (born May 17, 1942), who uses the stage name Taj Mahal, is an American blues musician. He often incorporates elements of world music into ...
 -----------------------------------------
-Is this result relevant? (y/n): n
-
------------------------------------------
-9) Taj Mahal - University Village - Chicago, IL - Yelp (http://www.yelp.com/biz/taj-mahal-chicago-2)
-Read 177 reviews, see 40 photos for Taj Mahal in Chicago. "Let me start off by saying that this place has an unnecessarily bad wrap on yelp. I had been wanting to ...
------------------------------------------
-Is this result relevant? (y/n): n
-
------------------------------------------
-10) Nars Taj Mahal - Amazon.com (http://www.amazon.com/NARS-0467504846788-Blush-Taj-Mahal/dp/B00021DJ32)
-Indications NARS - Cheek - Blush -Blush - Taj Mahal 4.8g/0.16oz NARS Ingredients Talc, Polyethylene, Zinc Stearate, Silica, Tricaprylin, Capric/Caprylic Stearic ...
------------------------------------------
-Is this result relevant? (y/n): n
-Target precision:  0.7
-Achieved precision:  0.1
+Is this result relevant? (y/n): y
+Target precision:  0.8
+Achieved precision:  0.5
 Going for next iteration...
 Augmenting query...
-Restarting search with query:  taj mahal musician
+Restarting search with query:  taj mahal musician albums
 
 -----------------------------------------
 1) Taj Mahal (musician) - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Taj_Mahal_(musician))
@@ -75,50 +76,50 @@ Henry Saint Clair Fredericks (born May 17, 1942), who uses the stage name Taj Ma
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-2) An International Treasure - Taj Mahal (http://www.tajblues.com/)
-TAJ MAHAL Accepts Lifetime Achievement Award from Americana Music Association. September 18, 2014. Taj Mahal accepted the Lifetime Achievement Award from the ...
+2) Taj Mahal | Album Discography | AllMusic (http://www.allmusic.com/artist/taj-mahal-mn0000790604/discography)
+Find Taj Mahal discography, albums and singles on AllMusic
 -----------------------------------------
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-3) Taj Mahal - Taj Mahal - Amazon.com Music (http://www.amazon.com/Taj-Mahal/dp/B00004XSUW)
-Amazon.com. Taj Mahal's been chasing the blues around the world for years, but rarely with the passion, energy, and clarity he brought to his first three albums.
+3) Taj Mahal Discography at Discogs (http://www.discogs.com/artist/15158-Taj-Mahal)
+Complete your Taj Mahal record collection. Discover Taj Mahal's full discography. Shop new and used Vinyl and CDs.
 -----------------------------------------
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-4) Taj Mahal (https://www.facebook.com/tajmahal)
-Taj Mahal is excited to present to the public for the first time prints from original etching Natch'l Blues! The Natchl Blues prints are hand rolled ...
+4) Amazon.com: Taj Mahal: Songs, Albums, Pictures, Bios (http://www.amazon.com/Taj-Mahal/e/B000APY7PY)
+Visit Amazon.com's Taj Mahal Store to shop for Taj Mahal albums (CD, MP3, Vinyl), concert tickets, and other Taj Mahal-related products (DVDs, Books, T-shirts). Also ...
 -----------------------------------------
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-5) Taj Mahal's Songs | Stream Online Music Songs | Listen ... (https://myspace.com/tajblues/music/songs)
-Taj Mahal's songs: Listen to songs by Taj Mahal on Myspace, Stream Free Online Music by Taj Mahal
+5) Discography - Taj Mahal (http://www.tajblues.com/discography/)
+7 Discography - Taj Mahal page page-id-7 page ... 2001 Live from the Beacon Theatre NYC Album Taj Mahal ... The latest in musical explorations for The Taj Mahal ...
 -----------------------------------------
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-6) Taj Mahal | Listen and Stream Free Music, Albums, New ... (https://myspace.com/tajblues)
+6) Taj Mahal (musician) live albums (http://www.naturalgeographicmagazine.com/q/Taj_Mahal_(musician)_live_albums)
+The Real Thing (Taj Mahal album) The Real Thing is a 1971 live album by Taj Mahal. It was recorded on February 13, 1971 at the Fillmore East in New York City and ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+7) Taj Mahal | Listen and Stream Free Music, Albums, New ... (https://myspace.com/tajblues)
 Taj Mahal's profile including the latest music, albums, songs, music videos and more updates.
 -----------------------------------------
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-7) Taj Mahal music - Listen Free on Jango || Pictures, Videos ... (http://www.jango.com/music/Taj+Mahal)
-Unlimited free Taj Mahal music - Click to play Statesboro Blues, Johnny Too Bad and whatever else you want! Henry Saint Clair Fredericks (born May 17, 1942), who uses ...
+8) Taj Mahal | Biography, Albums, & Streaming Radio | AllMusic (http://www.allmusic.com/artist/taj-mahal-mn0000790604)
+Find Taj Mahal bio, music, credits, awards, & streaming radio on AllMusic - A guitarist and singer/songwriter who took an
 -----------------------------------------
 Is this result relevant? (y/n): y
 
 -----------------------------------------
-8) Taj Mahal (The Musician) ? | Yahoo Answers (https://answers.yahoo.com/question/index?qid=20080915070119AActqrV)
-1) I love Taj Mahal. I once read that he considered himself a protector of musicians from producers who might take advantage of them. Plus, he makes ...
------------------------------------------
-Is this result relevant? (y/n): y
-
------------------------------------------
-9) Taj Mahal - LyricWikia - song lyrics, music lyrics (http://lyrics.wikia.com/wiki/Taj_Mahal)
-Taj Mahal (1968) Leaving Trunk, Statesboro Blues, Checkin' Up On My Baby, Everybody's Got To...
+9) Taj Mahal Discography (1968-2008) (http://www.inwarez.org/showthread.php?1585965-Taj-Mahal-Discography-(1968-2008))
+Artist: Taj Mahal Title Of Album: Discography Year Of Release: 1968-2008 Genre: Blues, World music, R&B, Soul Blues, Blues Rock, Reggae Quality: MP3
 -----------------------------------------
 Is this result relevant? (y/n): y
 
@@ -127,9 +128,9 @@ Is this result relevant? (y/n): y
 It's hard to believe that 40 years have elapsed since Taj Mahal recorded his self-titled album. I can honestly say that Taj's debut album DID change my life because ...
 -----------------------------------------
 Is this result relevant? (y/n): y
-Target precision:  0.7
+Target precision:  0.8
 Achieved precision:  1.0
 Precision achieved. Stopping
-[1m[7m%[27m[1m[0m                                                                              ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=
+[1m[7m%[27m[1m[0m                                                                                                        ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=
 
-Script done on Mon Oct  5 00:35:41 2015
+Script done on Thu Oct  8 15:18:21 2015

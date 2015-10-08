@@ -1,0 +1,137 @@
+Script started on Thu Oct  8 15:16:01 2015
+[1m[7m%[27m[1m[0m                                                                                                        ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[H[2J[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K../run.sh[1m [0m[0m [?1l>
+]2;./run.sh]1;./run.shEnter Query: gates
+Enter target precision: 0.8
+Enter BING account key (leave blank to use author's key): 
+
+-----------------------------------------
+1) Gates Corporation (http://www.gates.com/)
+Gates Corporation is Powering Progress in the Oil & Gas, Energy, Mining, Marine, Agriculture, Transportation and Automotive Industries.
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+2) Driveway Gates | Automatic Gates | Electric Gates (http://www.gatecrafters.com/design_your_gates.aspx)
+Driveway Gates - Automatic Gates The high-quality driveway gates from GateCrafters.com come in a wide variety of options to ...
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+3) Gates Bar B.Q. (http://www.gatesbbq.com/)
+With the tantalizing hickory barbecue smell drawing the customer through the ranch-style doors, he is immediately greeted.
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+4) Amazon.com: gates (http://www.amazon.com/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Agates)
+Product Features Expands to become a 192-inch wall mounted gate or free standing barrier
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+5) Bill Gates - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Bill_Gates)
+William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor. In 1975, Gates co ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+6) gates (https://www.facebook.com/gatesnj)
+gates. 13,913 likes  194 talking about this. www.gatesnj.com. Facebook logo. Email or Phone: Password: Keep me logged in. Forgot your password? Sign Up. gates
+-----------------------------------------
+Is this result relevant? (y/n): l
+Please enter only y (for yes) or n (for no): n
+
+-----------------------------------------
+7) Gates - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Gates)
+Gates may refer to: Contents 1 People 2 Places 3 Art and entertainment 4 See also People Gates (surname) Gates Brown, American baseball player Gates McFadden ...
+-----------------------------------------
+Is this result relevant? (y/n): n
+
+-----------------------------------------
+8) Bill Gates - Forbes (http://www.forbes.com/profile/bill-gates/)
+Forty years ago, when Bill Gates and Paul Allen launched Microsoft, Gates' goal of getting a computer on every person's desk seemed audacious.
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+9) Bill & Melinda Gates Foundation (http://www.gatesfoundation.org/)
+The Gates Foundations effort to eradicate polio offers the chance to protect millions of children from paralysis forever.
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+10) Amazon.com: Gates & Doorways: Baby Products (http://www.amazon.com/b?ie=UTF8&node=166868011)
+Online shopping for Gates & Doorways from a great selection at Baby Products Store.
+-----------------------------------------
+Is this result relevant? (y/n): n
+Target precision:  0.8
+Achieved precision:  0.3
+Going for next iteration...
+Augmenting query...
+Restarting search with query:  gates bill
+
+-----------------------------------------
+1) Bill Gates - Wikipedia, the free encyclopedia (http://en.wikipedia.org/wiki/Bill_Gates)
+William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor. In 1975, Gates co ...
+-----------------------------------------
+Is this result relevant? (y/n): g y
+
+-----------------------------------------
+2) Home | Bill Gates (http://www.gatesnotes.com/)
+This is my personal blog, where I share about the people I meet, the books I'm reading, and what I'm learning. I hope that you'll join the conversation.
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+3) Bill Gates - Forbes (http://www.forbes.com/profile/bill-gates/)
+Forty years ago, when Bill Gates and Paul Allen launched Microsoft, Gates' goal of getting a computer on every person's desk seemed audacious.
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+4) Bill & Melinda Gates Foundation (http://www.gatesfoundation.org/)
+The Gates Foundations effort to eradicate polio offers the chance to protect millions of children from paralysis forever.
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+5) Bill Gates - Business Leader, Entrepreneur, Philanthropist ... (http://www.biography.com/people/bill-gates-9307520)
+Entrepreneur Bill Gates founded the world's largest software business, Microsoft, with Paul Allen, and subsequently became one of the richest men in the world.
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+6) Bill Gates - CNBC (http://www.cnbc.com/bill-gates/)
+NEW YORK, Sept 25- The Bill& Melinda Gates Foundation Trust has sued Brazil's Petrobras to recoup stock losses stemming from a corruption scandal at the state-run oil ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+7) Bill and Melinda Gates on the political debate over Common ... (http://www.pbs.org/newshour/bb/bill-melinda-gates-political-debate-common-core-standards/)
+Bill and Melinda Gates, two of the worlds leading philanthropists, sit down with Gwen Ifill in Seattle to discuss their efforts to support education ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+8) Bill Gates (@BillGates) | Twitter (https://twitter.com/billgates)
+1,810 tweets  500 photos/videos  25M followers. "Could computer modeling and machine learning help prevent the next epidemic? http://t.co/cSmnt1SD5w @IEEESpectrum"
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+9) Bill Gates Keynote: Microsoft TechEd 2008  Developers ... (http://news.microsoft.com/2008/06/03/bill-gates-keynote-microsoft-tech%e2%80%a2ed-2008-developers/)
+BILL GATES: Good morning and welcome to TechEd. This is the first year that we broke TechEd into two sections, the section this week, which is just ...
+-----------------------------------------
+Is this result relevant? (y/n): y
+
+-----------------------------------------
+10) Bill Gates offers a full year of paid parental leave to ... (http://www.businessinsider.com/gates-foundation-announces-unlimited-leave-policies-2015-10)
+Employees at the Bill & Melinda Gates Foundation, the largest private foundation in the world, will be able to enjoy up to one year of paid time with their ...
+-----------------------------------------
+Is this result relevant? (y/n): n
+Target precision:  0.8
+Achieved precision:  0.9
+Precision achieved. Stopping
+[1m[7m%[27m[1m[0m                                                                                                        ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=
+
+Script done on Thu Oct  8 15:16:56 2015
