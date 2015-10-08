@@ -1,6 +1,5 @@
-Script started on Thu Oct  8 15:17:18 2015
-[1m[7m%[27m[1m[0m                                                                                                        ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=[H[2J[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K../run.sh[1m [0m[0m [?1l>
-]2;./run.sh]1;./run.shEnter Query: taj mahal
+➜  bingbing git:(master) ./run.sh
+Enter Query: taj mahal
 Enter target precision: 0.8
 Enter BING account key (leave blank to use author's key): 
 
@@ -131,6 +130,3 @@ Is this result relevant? (y/n): y
 Target precision:  0.8
 Achieved precision:  1.0
 Precision achieved. Stopping
-[1m[7m%[27m[1m[0m                                                                                                        ]2;prakhar@prakhars-MacBook-Pro: ~/Code/adb-class/bingbing]1;..lass/bingbing[0m[27m[24m[J[01;32m➜ [01;32m [36mbingbing [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=
-
-Script done on Thu Oct  8 15:18:21 2015
