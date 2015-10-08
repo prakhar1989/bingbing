@@ -2,7 +2,8 @@ from __future__ import division
 import math
 import nltk
 import numpy as np
-from dev_config import ALPHA, BETA, GAMMA
+from nltk.corpus import stopwords
+from config import ALPHA, BETA, GAMMA
 
 class Corpora:
     def __init__(self, query, corpora, relevantDocIds):
@@ -25,8 +26,9 @@ class Corpora:
 
     def _constructVocab(self):
         words = set()
+        stopWords = set(stopwords.words('english'))
         for d in self.documents:
-            words.update([w for w in d if w.isalpha()])
+            words.update([w for w in d if w.isalpha() and w not in stopWords])
         return words
 
     def _getDocFreqs(self):
