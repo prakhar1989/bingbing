@@ -1,7 +1,9 @@
 import requests
-import config
 import sys
+
+import config
 from corpora import Corpora
+import bing
 
 # Hack for turning off SSLWarning on CLIC machines :|
 requests.packages.urllib3.disable_warnings()
@@ -14,16 +16,9 @@ class BingBing():
         self.results = []
         self.KEY = key.strip() or config.ENCODED_KEY
 
-    def get_uri(self):
-        url = "https://api.datamarket.azure.com/Bing/Search/Web?Query=%27{0}%27&$top=10&$format=json"
-        return url.format(self.query)
-
     def get_results(self):
-        url = self.get_uri()
-        headers = {'Authorization': 'Basic ' + self.KEY}
-        r = requests.get(url, headers=headers)
-        data = r.json()
-        return data.get('d').get('results')
+        return bing.get_results(self.query, self.KEY)
+
 
     def print_results(self):
         for i, r in enumerate(self.results):
@@ -63,7 +58,11 @@ class BingBing():
 
     def update_query(self):
         results = [r["Description"] + r['Title'] for r in self.results]
-        corpora = Corpora(self.query, results, self.selectedIDs)
+        try:
+            corpora = Corpora(self.query, results, self.selectedIDs)
+            print corpora
+        except:
+            print "NLTK Corpora not install, query expansion requires NLKT Corpuses"
         print "Augmenting query..."
 
         # filter - choose words that are not in the query already
@@ -80,13 +79,12 @@ class BingBing():
 if __name__ == "__main__":
     try: # graceful exits on <C-d> / <C-c>
         q = raw_input("Enter Query: ")
-        p = float(raw_input("Enter target precision: ").strip())
+        p = 0
+        while p <= 0 or p > 1:
+            p = float(raw_input("Enter target precision (Prescision needs to be between 0 and 1): ").strip())
         key = raw_input("Enter BING account key (leave blank to use author's key): ")
     except (EOFError, KeyboardInterrupt) as e:
         print "\nExiting..."
-        sys.exit()
-    if p < 0 or p > 1:
-        print "Error: precision should be between 0 and 1. Please try again."
         sys.exit()
 
     b = BingBing(query=q.strip(), precision=p, key=key)
