@@ -1,37 +1,33 @@
----
-title:  Bingbing
-author: Assignment 1 - Relevance Feedback
-geometry: margin=1.50in
-header-includes:
-    - \usepackage{fancyhdr}
-    - \pagestyle{fancy}
-    - \fancyhead[CO,CE]{Advanced Database Systems - Fall 2015}
-    - \fancyhead[LE,RO]{Oct 9, 2015}
----
+Bingbling
+==================
+
+Assignment 1 - Relevance Feedback 
+------------------
+
+> Advanced Database Systems - Fall 2015
 
 ### Team Members
 - Nikhil Mitra (nm2868)
 - Prakhar Srivastav (ps2894)
 
 ### File List
-```
-|-- README.md
-|-- transcripts
-|   |-- musk-output.txt
-|   |-- gates-output.txt
-|   |-- taj-mahal-output.txt
-|-- requirements.txt
-|-- run.sh
-|-- src
-|   |-- __init__.py
-|   |-- corpora.py
-|   |-- config.py
-|   |-- bing.py
-|   └-- starter.py
-|-- tests
-    |-- __init__.py
-    |-- corpora_test.py
-```
+    
+    |-- README.md
+    |-- transcripts
+    |   |-- musk-output.txt
+    |   |-- gates-output.txt
+    |   |-- taj-mahal-output.txt
+    |-- requirements.txt
+    |-- run.sh
+    |-- src
+    |   |-- __init__.py
+    |   |-- corpora.py
+    |   |-- config.py
+    |   |-- bing.py
+    |   └-- starter.py
+    |-- tests
+        |-- __init__.py
+        |-- corpora_test.py
 
 ### Running the program
 
