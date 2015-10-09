@@ -39,7 +39,7 @@ The bing account key is `Byygq1zI2KKyssKp8UvVe3DV/v6Aa0FEsKrE+pqDa0s`
 ### Internal Design
 The algorithm used is **Rocchio's Algorithm**[1]. It is implemented in corpora.py, along with a implementation of the linear TF/IDF. All configurable settings are present in config.py
 
-####Folder Structure
+#### Folder Structure
 The folder *outputs* contains sample outputs of the algorithm.<br>
 The folder *src* contains the main source code.
 The folder "tests" contains basic test cases.
