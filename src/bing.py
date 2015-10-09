@@ -1,6 +1,6 @@
 """
 Contains all functions relating to getting queries from Bing.
-Creating seperate files for different search engines allows for a decoupling 
+Creating seperate files for different search engines allows for a decoupling
 of the algorithm from the search engine.
 """
 import requests
@@ -16,6 +16,3 @@ def get_results(query, key):
     r = requests.get(url, headers=headers)
     data = r.json()
     return data.get('d').get('results')
-
-if __name__ == '__main__':
-	print get_results('Gates')

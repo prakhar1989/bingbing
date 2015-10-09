@@ -1,14 +1,14 @@
 Bingbing
 ===
 
-### Team Members (in alphabetical order)
+### Team Members
 - Nikhil Mitra (nm2868)
 - Prakhar Srivastav (ps2894)
 
 ### File List
 ```
 ├── README.md
-├── outputs
+├── transcripts
 │   ├── musk-output.txt
 │   ├── gates-output.txt
 │   └── taj-mahal-output.txt
@@ -17,19 +17,29 @@ Bingbing
 ├── src
 │   ├── __init__.py
 │   ├── corpora.py
-│   ├── dev_config.py
+│   ├── config.py
+│   ├── bing.py
 │   └── starter.py
 └── tests
     ├── __init__.py
     └── corpora_test.py
 ```
 
-### Run
+### Running the program
 
-In order to run the code, just install the python packages the program depends on. A list of these packges is provided in the the `requirements.txt` file.
+#### On CLIC
+To run on the *CLIC* machines, just run the following set of commands.
+```
+$ cd /home/ps2894/bingbling
+$ ./run.sh
+```
+
+#### Build it locally
+In order to build the project on your computer, just install the python packages the program depends on. A list of these packges is provided in the the `requirements.txt` file. Since this program uses `nltk`, nltk data also needs to be downloaded.
 
 ```
 $ pip install -r requirements.txt
+$ python -m nltk.downloader all # to install nltk data (skip if it already exists)
 $ ./run.sh
 ```
 
@@ -37,31 +47,17 @@ $ ./run.sh
 The bing account key is `Byygq1zI2KKyssKp8UvVe3DV/v6Aa0FEsKrE+pqDa0s`
 
 ### Internal Design
-The algorithm used is **Rocchio's Algorithm**[1]. It is implemented in corpora.py, along with a implementation of the linear TF/IDF. All configurable settings are present in config.py
+The program is divided primarily into four files.
+- `config.py`: Contains key-value pairs for configuring the program. This includes the account keys, the output format and configuration parameters for the underlying algorithm.
+- `bing.py`: Contains the implementation specific to the bing search engine which is responsible for making the API call, parsing and organizing the results, and then passing those results off to the main program. This has been separated so that another search engine can be added via a drop-in replacement.
+- `starter.py`: This file is the main driver program. Its job is to get the results from the search engine module (bing in this case), make changes to the results (such as adding the query in the dataset) and call the public methods exposed by the `corpora` module. `starter.py` takes care of all the user-interaction logic such as taking input from user, calculating the precision, changing the query and lastly, deciding when to stop.
+- `corpora.py`: Corpora.py is the primary workhorse of the program. It implements the **Rocchio's Algorithm** for modifying the query. It relies on external libraries such as NLTK to help with stopwords filtering and word tokenization. This code in this file is also responsible for calculating the tf-idf scores for each word, getting the 
+
+The algorithm used is **Rocchio's Algorithm**[1]. It is implemented in corpora.py, along with a implementation of TF/IDF. The parameters Alpha, Beta and Gamma used in the equation are configurable and are read from config.py.
+
+### Query Modification
 
 #### Folder Structure
-The folder *outputs* contains sample outputs of the algorithm.<br>
+The folder *outputs* contains sample outputs of the algorithm.
 The folder *src* contains the main source code.
-The folder "tests" contains basic test cases.
 
-### TODO:
-
- 1. Change from TF/IDF to TextRank[2] or RAKE[3]. Both these algorithms provide superior accuracy and do not rely on the size of the document corpus [4]
- 2. Write automatic test cases.
- 3. Ab-Initio starting with Bing. Bing has some form of query expansion running underneath, and repeated searching tends to alter search results.
- 3. Implement more search engines. 
- 4. Implement a document clustering algorithm to account for false negative or a false positive given during feedback.
- 5. Implement term correlation using N degrees of Wikipedia, DMOZ categorizer or WordNet. From experience, DMOZ works best (and fast) [5]
-
-----------
-
-
-[1] Relevance Feedback in Information Retrieval, SMART Retrieval System Experiments in Automatic Document Processing, 1971, Prentice Hall Inc.
-
-[2] Rada Mihalcea and Paul Tarau, “TextRank: Bringing order into texts”, Association for Computational Linguistics, 2004.
-
-[3] Martin Dostál and Karel Jezek, “Automatic Keyphrase Extraction based on NLP and Statistical Methods”, DATESO, pp. 140-145, 2011.
-
-[4] Stuart Rose, Dave Engel, Nick Cramer and Wendy Cowley, “Automatic keyword extraction from individual documents”, Text Mining: Applications and Theory, pp. 1- 20, 2010.
-
-[5] Mitra, Nikhil, et al. "Adaptive Content Based Textual Information Source Prioritization" ICTACT Journal on Soft Computing 5.1 (2014).
