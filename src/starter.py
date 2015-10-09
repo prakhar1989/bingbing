@@ -27,7 +27,7 @@ class BingBing():
                                              r["Description"].encode("ascii", "ignore"))
             try: # graceful exits on <C-d> / <C-c>
                 relevant = raw_input("Is this result relevant? (y/n): ").strip().lower()
-                while relevant not in "yn":
+                while relevant not in set(["y", "n"]):
                     relevant = raw_input("Please enter only y (for yes) or n (for no): ").strip().lower()
                 if relevant == "y":
                     self.selectedIDs.append(i)
