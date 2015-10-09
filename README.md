@@ -16,9 +16,10 @@ header-includes:
 ### Running the program
 
 #### On CLIC
-To run on the *CLIC* machines, just run the following set of commands.
+To run on the **CLIC** machines, just run the following set of commands.
+
 ```
-$ cd /home/ps2894/bingbling
+$ cd /home/ps2894/ps2894-proj1
 $ ./run.sh
 ```
 
