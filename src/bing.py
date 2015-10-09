@@ -1,3 +1,8 @@
+"""
+Contains all functions relating to getting queries from Bing.
+Creating seperate files for different search engines allows for a decoupling 
+of the algorithm from the search engine.
+"""
 import requests
 
 import config
