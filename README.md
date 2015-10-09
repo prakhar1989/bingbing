@@ -107,6 +107,7 @@ The bing account key is `Byygq1zI2KKyssKp8UvVe3DV/v6Aa0FEsKrE+pqDa0s`
 ### File List
     
     |-- README.md
+    |-- report.pdf
     |-- transcripts
     |   |-- musk-output.txt
     |   |-- gates-output.txt
