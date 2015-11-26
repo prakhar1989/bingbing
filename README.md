@@ -1,13 +1,4 @@
----
-title:  BingBling
-author: Assignment 1 - Relevance Feedback 
-geometry: margin=1.15in
-header-includes:
-    - \usepackage{fancyhdr}
-    - \pagestyle{fancy}
-    - \fancyhead[CO,CE]{Advanced Database Systems - Fall 2015}
-    - \fancyhead[LE,RO]{Oct 9, 2015}
----
+# BingBing - Relevance Feedback 
 
 ### Team Members
 - Nikhil Mitra (nm2868)
